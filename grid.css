@@ -1,0 +1,129 @@
+html,
+body {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+  margin: 0;
+  font-family: sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, auto);
+  gap: 2px;
+}
+
+header {
+    grid-column: 4 / 9;
+  }
+.name {
+    grid-column: 4 / 9;
+    grid-row: 2 / 3;
+}
+.txt2 {
+    width: 290px;
+}
+.bday {
+    grid-column: 4 / 9;
+    grid-row: 3 / 4;
+}
+.bdaytxt {
+    font-size: 0.7vw;
+    margin-bottom: 0;
+}
+.gendertxt {
+    font-size: 0.7vw;
+    margin-bottom: 0;
+}
+.tx5 {
+    grid-column: 4 / 9;
+    grid-row: 4 / 5;
+}
+.txt6 {
+    grid-column: 4 / 7;
+    grid-row: 5 / 6;
+    margin-bottom: 0px;
+}
+.txt7 {
+    grid-column: 4 / 7;
+    grid-row: 6 / 7;
+}
+button {
+    grid-column: 5 / 6;
+    grid-row: 8 / 9;
+    background-color: #00A500;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+ }
+.terms {
+    grid-column: 4 / 5;
+    grid-row: 7 / 8;
+    font-size: 0.6vw;
+    margin-bottom: 2vh;
+    background-color: #2e83f2;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-radius: 4px;
+}
+.learn {
+    color: #2e83f2;
+    font-size: 0.9vw;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* 
+  .txt {
+    background-color: aquamarine;
+    grid-area: c;
+    color: aqua;
+  }
+  .txt2 {
+    grid-area: f;
+  }
+  .txt3 {
+    grid-area: a;
+  }
+  .txt4 {
+    grid-area: b;
+  }
+  .txt5 {
+    grid-area: d;
+  }
+  .txt6 {
+    grid-area: o;
+  }
+  .txt7 {
+    grid-area: k;
+  }
+  grid-template-areas:
+    "h h h h h h h h h h h h"
+    ". c c c c c c c c c c c"
+    ". f f f f f f f f f f f"
+    "a a a a a a a a a a a a"
+    "b b b b b b b b b b b b"
+    "d d d d d d d d d d d d"
+    "o o o o o o o o o o o o"
+    "k k k k k k k k k k k k"
+    "j j j j j j j j j j j j"
+    "t t t t t t t t t t t t"
+    "w w w w w w w w w w w w"
+    "r r r r r r r r r r r r";
